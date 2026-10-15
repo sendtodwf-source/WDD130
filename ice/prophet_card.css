@@ -1,0 +1,45 @@
+body{
+    background-color: #ffecd7;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+#content{
+    
+    background-color: #008db1;
+    border: 4px solid #004e63;
+    border-radius: 20px;
+    text-align: center;
+    grid-column: 2;
+    margin: 50px 50px;
+    padding: 50px;
+}
+ul{
+    font-size: 24px;
+    color: #fffffe;
+    margin: 0 auto;
+    width: 250px;
+}
+h1{
+    color: #fffffe;
+    font-family: Helvetica;
+    font-size: 64px;
+}
+h2 a{
+    margin: 0 auto;
+    font-size: 1.5em;
+    color: #91e4fb;
+    font-family: Helvetica;
+    text-decoration: none;
+}
+h3{
+    padding: 10px;
+    margin: 30px;
+    font-size: 2em;
+    color:#ffd783;
+    font-family: "Brush Script MT", "Nanum Brush Script";
+}
+img
+{
+    border: 4px solid white;
+    margin: 50px 50px;
+}
