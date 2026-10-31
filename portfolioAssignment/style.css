@@ -1,0 +1,107 @@
+body{
+background: #0B1825;
+display:grid;
+}
+header{
+    display: grid; 
+    color: #CBB4AD;
+    justify-items: center;
+    margin: 0px 0px 10px 0px;
+}
+header a{
+    color: #CBB4AD;
+    text-decoration: none;
+    margin: 5px;
+}
+header a:visited{
+    color: #CBB4AD;
+    text-decoration: none;
+}
+
+footer{
+    display: flex; 
+    color: #CBB4AD;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
+}
+footer a{
+    color: #CBB4AD;
+    text-decoration: none;
+}
+footer a:visited{
+    color: #CBB4AD;
+    text-decoration: none;
+}
+#link:hover{
+    color: lightgray;
+    text-decoration: underline;
+}
+
+.hero{
+    margin: 50px;
+    width: 100%;
+    float: right;
+}
+
+.profileImg{
+    background: white;
+    margin: 0 auto;
+    border: 10px solid white;
+    border-radius: 200px 200px 0px 0px;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    height: 460px;
+    width: 460px;
+}
+
+.owlImg{
+    margin: 0px -200px 0px 0px;
+    float: bottom;
+}
+
+.sig
+{
+    grid-column: 3/4;
+    margin: -100px -200px 0px -70px;
+    scale: 70%;
+}
+.abtMe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    grid-column:1/4;
+    margin: auto 0;
+    margin-top: -125px;
+}
+h1, h2, a, p
+{
+    color: #CBB4AD;
+}
+
+#w{
+    color: white;
+}
+main{
+    width: 90%;
+    max-width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(3,1fr);
+}
+
+button{
+    color: white;
+    background: #CBB4AD;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+button:hover{
+    color: lightgray;
+    background: navy;
+}
