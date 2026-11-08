@@ -1,0 +1,116 @@
+
+body {
+    background: rgb(120, 96, 64);
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    }
+
+
+#formContainer
+{
+    background-color: white;
+    border: 4px solid #004e63;
+    border-radius: 20px;
+    text-align: center;
+    grid-column: 2;
+    margin: 50px 50px;
+    padding: 10px;  
+}
+
+#formContainer label, input
+{
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    margin: 2px;
+}
+
+button:hover{
+    box-shadow: 2px 3px 5px black;
+    background: #007fa2;
+}
+
+button{
+    background: white;
+    width: 200px;
+    height: 35px;
+    margin: 10px;
+}
+
+input:hover{
+    box-shadow: 1px 1px 5px black;
+    background: #f8f4a3ef;
+}
+
+#closeBtn{
+    position: absolute;
+    top: 100%
+    left 100%;
+    transform: translate(-200%, -1500%);
+}
+h3
+{
+    color: white;
+    text-shadow: 2px 3px 5px black;
+    position: relative;
+    z-index: 2;
+
+}
+.heroImg {
+    margin-top: -59px;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.bookRow{
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0 auto;
+    gap: 5px;
+    padding: 10px
+    
+}
+.bookRow img{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+header{
+    display: grid; 
+    color: #CBB4AD;
+    justify-items: center;
+    margin: 0px 0px 10px 0px;
+}
+header a{
+    color: #CBB4AD;
+    text-decoration: none;
+    margin: 5px;
+}
+header a:visited{
+    color: #CBB4AD;
+    text-decoration: none;
+}
+
+footer{
+    display: flex; 
+    color: #CBB4AD;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
+}
+footer a{
+    color: #CBB4AD;
+    text-decoration: none;
+}
+footer a:visited{
+    color: #CBB4AD;
+    text-decoration: none;
+}
+#link:hover{
+    color: lightgray;
+    text-decoration: underline;
+}
