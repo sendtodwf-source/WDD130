@@ -81,6 +81,7 @@ h1, h2, a, p
     color: #CBB4AD;
 }
 
+
 #w{
     color: white;
 }
@@ -104,4 +105,20 @@ button{
 button:hover{
     color: lightgray;
     background: navy;
+}
+
+#icePage{
+    list-style: none;
+    display: grid;
+    text-wrap: nowrap;
+    grid-column: 2/3;
+    margin-top: 100px;
+}
+#iceLinks{
+    color: white;
+    align-items: center;
+    margin: auto 40px;
+    font-size: 50px;
+    justify-items:center;
+
 }
